@@ -5,7 +5,7 @@ const bodyLoaded = () => {
     preloader.style.display = "none";
   }, 2000);
 };
-
+//this is the modification
 //Scroll To Top
 const scrollToTop = document.querySelector(".scrollToTop");
 //When Scroll Height is greater than 400 then display scroll to top.
@@ -13,7 +13,7 @@ window.addEventListener("scroll", () => {
   window.pageYOffset > 400
     ? (scrollToTop.style.display = "block")
     : (scrollToTop.style.display = "none");
-});
+});{}
 
 // Scroll to top on click
 scrollToTop.addEventListener("click", () => {
